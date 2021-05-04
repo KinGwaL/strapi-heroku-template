@@ -9,7 +9,7 @@
     "build": "strapi build",
     "strapi": "strapi",
     "heroku-prebuild": "node scripts/postgres-env.js",
-    "heroku-postbuild": "strapi build && node scripts/postinstall.js"
+    "heroku-postbuild": "strapi develop && node scripts/postinstall.js"
   },
   "devDependencies": {},
   "dependencies": {

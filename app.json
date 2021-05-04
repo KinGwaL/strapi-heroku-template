@@ -2,7 +2,7 @@
   "name": "Strapi",
   "description": "Strapi Heroku 1 click deploy button",
   "keywords": ["strapi", "heroku"],
-  "repository": "https://github.com/strapi/strapi-heroku-template",
+  "repository": "https://github.com/KinGwaL/strapi-heroku-template",
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
   "buildpacks": [
